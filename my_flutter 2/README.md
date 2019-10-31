@@ -1,16 +1,14 @@
 # my_flutter
+### 所有的配置放在lib下
+- lib
+    - component //封装的组建
+    -router     //路由
+    -utils      //接口
+    -views      //页面
+    -main.dart  //初始化
+- pubspec.yaml //安装依赖
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+// 服务启动 
+-   open -a Simulator
+-   source ~/.bash_profile 
+-   flutter run 
